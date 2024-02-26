@@ -11,7 +11,6 @@ for i in range(n):
         value.append(name[1])
         dscndnts[name[0]] = value
 
-
 def dscndnt(name, count):
     if name not in dscndnts.keys():
         return count[0]
