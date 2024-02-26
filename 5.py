@@ -19,6 +19,5 @@ def dscndnt(name, count):
         dscndnt(dscndnts[name][i], count)
     return count[0]
 
-
 count = [0]
 print(dscndnt(input(), count))
